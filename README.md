@@ -37,6 +37,23 @@ This project focuses on using a Decision Tree classifier for its transparency, s
   - No categorical encoding needed (data was numeric only)
   - Applied train_test_split (80/20) to create validation set
   - Standardized features for SVM/MLP (optional)
+    
+ ## 3. Model Development – Decision Trees
+   Created multiple Decision Tree models with different hyperparameters:
+    Model               Parameters                             Validation AUC
+    Default Tree        No tuning                                 0.5600
+    Deep Tree           max_depth=10, min_samples_split=5         0.7900
+    Gini Tree           criterion='gini', max_depth=8             0.7970
+    Entropy Tree        criterion='entropy', max_depth=8          0.7900
+  - Gini Tree found to generalize best, striking a balance between accuracy and overfitting.
+
+
+
+
+
+
+   
+
 
 
 
