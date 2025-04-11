@@ -5,7 +5,7 @@ The objective of this project is to predict customer satisfaction levels using a
  - Thousands of anonymized features
  - Strong class imbalance (only a small % of unsatisfied customers)
  - No business feature names or domain metadata
-This project focuses on using a Decision Tree classifier for its transparency, simplicity, and ease of interpretation, while exploring hyperparameter tuning and feature selection to improve performance and generalization.
+This project focuses on using a Decision Tree classifier for its transparency, simplicity, and ease of interpretation while exploring hyperparameter tuning and feature selection to improve performance and generalization.
 
 ## Key Learning Goals
  - Clean high-dimensional, noisy datasets
@@ -21,4 +21,14 @@ This project focuses on using a Decision Tree classifier for its transparency, s
  - Many columns with:
     - Zero variance
     - Sparse, non-informative distributions
+  
+ ## Workflow Summary
+    ##Exploratory Data Analysis (EDA)
+     - Detected zero-variance features using VarianceThreshold
+     - Identified 3 key relevant features:
+        - var15 – Age-like variable
+        - num_var45_ult1 – Activity/engagement
+        - saldo_var30 – Possibly balance
+
+
 
