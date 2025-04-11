@@ -39,7 +39,7 @@ This project focuses on using a Decision Tree classifier for its transparency, s
   - Standardized features for SVM/MLP (optional)
     
  ## 3. Model Development – Decision Trees
-   Created multiple Decision Tree models with different hyperparameters:
+   ## Created multiple Decision Tree models with different hyperparameters:
     - Model               Parameters                             Validation AUC
     - Default Tree        No tuning                                 0.5600
     - Deep Tree           max_depth=10, min_samples_split=5         0.7900
