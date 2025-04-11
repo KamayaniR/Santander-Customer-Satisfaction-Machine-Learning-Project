@@ -24,11 +24,11 @@ This project focuses on using a Decision Tree classifier for its transparency, s
   
  ## Workflow Summary
    ## Exploratory Data Analysis (EDA)
-     - Detected zero-variance features using VarianceThreshold
-     - Identified 3 key relevant features:
-        - var15 – Age-like variable
-        - num_var45_ult1 – Activity/engagement
-        - saldo_var30 – Possibly balance
+    - Detected zero-variance features using VarianceThreshold
+    - Identified 3 key relevant features:
+      - var15 – Age-like variable
+      - num_var45_ult1 – Activity/engagement
+      - saldo_var30 – Possibly balance
 
 
 
