@@ -46,6 +46,21 @@ This project focuses on using a Decision Tree classifier for its transparency, s
     - Gini Tree           criterion='gini', max_depth=8             0.7970
     - Entropy Tree        criterion='entropy', max_depth=8          0.7900
   - Gini Tree found to generalize best, striking a balance between accuracy and overfitting.
+    
+## 4. Hyperparameter Tuning
+   - Used GridSearchCV to fine-tune:
+   - criterion: 'gini' vs 'entropy'
+   - max_depth: 4 to 12
+   - min_samples_split: 2 to 10
+     
+## 5. Evaluation
+   Metrics Used:
+  - ROC-AUC: Primary metric for evaluation due to class imbalance
+  - F1 Score: Assessed class 1 (unsatisfied) performance
+  - Confusion Matrix: Checked true positive/false negative rates
+  
+
+
 
 
 
