@@ -23,12 +23,20 @@ This project focuses on using a Decision Tree classifier for its transparency, s
     - Sparse, non-informative distributions
   
  ## Workflow Summary
- ## Exploratory Data Analysis (EDA)
+ ## 1. Exploratory Data Analysis (EDA)
   - Detected zero-variance features using VarianceThreshold
   - Identified 3 key relevant features:
     - var15 – Age-like variable
     - num_var45_ult1 – Activity/engagement
     - saldo_var30 – Possibly balance
+  - Visualized feature correlation and class imbalance
+  - Dropped features with no variation and no importance
+    
+ ## 2. Preprocessing
+  - Split dataset into X (features) and y (TARGET)
+  - No categorical encoding needed (data was numeric only)
+  - Applied train_test_split (80/20) to create validation set
+  - Standardized features for SVM/MLP (optional)
 
 
 
