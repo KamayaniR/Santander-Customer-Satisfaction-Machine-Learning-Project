@@ -23,7 +23,7 @@ This project focuses on using a Decision Tree classifier for its transparency, s
     - Sparse, non-informative distributions
   
  ## Workflow Summary
-    ## Exploratory Data Analysis (EDA)
+   ## Exploratory Data Analysis (EDA)
      - Detected zero-variance features using VarianceThreshold
      - Identified 3 key relevant features:
         - var15 – Age-like variable
