@@ -48,7 +48,7 @@ This project focuses on using a Decision Tree classifier for its transparency, s
   - Gini Tree found to generalize best, striking a balance between accuracy and overfitting.
     
 ## 4. Hyperparameter Tuning
-    Used GridSearchCV to fine-tune:
+   Used GridSearchCV to fine-tune:
    - criterion: 'gini' vs 'entropy'
    - max_depth: 4 to 12
    - min_samples_split: 2 to 10
