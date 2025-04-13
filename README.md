@@ -60,7 +60,7 @@ This project focuses on using a Decision Tree classifier for its transparency, s
   - Confusion Matrix: Checked true positive/false negative rates
     
 ## Kaggle Results & Model Comparison
-  ##
+  ## Model & Scores
    -  Model             Public Score       Private Score       Notes
    -  Default Tree      0.68872            0.67190             Overfitted/underfit
    -  Deep Tree         0.80227            0.79045             Slight overfitting
