@@ -67,6 +67,23 @@ This project focuses on using a Decision Tree classifier for its transparency, s
     -  Entropy Tree      0.80455            0.79048             Complex but stable
     -  Gini Tree         0.81054            0.79782             Best balance of generalization and simplicity
 
+ ## Key Insights
+   - Simpler models can outperform complex ones when tuned well
+   - Gini impurity slightly outperformed entropy on validation and Kaggle scores
+   - Feature selection was essential to remove noise and improve tree splits
+   - Moderate tree depth (~8) prevented overfitting and improved generalization
+     
+ ## Challenges Faced
+   ## Challenge and Solutions:
+    - High dimensionality - Variance filtering, manual feature inspection
+    - Class imbalance - Focused on AUC + F1, considered future SMOTE use
+    - Noisy data - Removed features with zero variance and low correlation
+    - Overfitting risks - Controlled tree depth + min samples per node
+
+
+
+
+
 
   
 
