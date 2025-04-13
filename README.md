@@ -58,6 +58,15 @@ This project focuses on using a Decision Tree classifier for its transparency, s
   - ROC-AUC: Primary metric for evaluation due to class imbalance
   - F1 Score: Assessed class 1 (unsatisfied) performance
   - Confusion Matrix: Checked true positive/false negative rates
+    
+## Kaggle Results & Model Comparison
+ -  Model             Public Score       Private Score       Notes
+ -  Default Tree      0.68872            0.67190             Overfitted/underfit
+ -  Deep Tree         0.80227            0.79045             Slight overfitting
+ -  Entropy Tree      0.80455            0.79048             Complex but stable
+ -  Gini Tree         0.81054            0.79782             Best balance of generalization and simplicity
+
+
   
 
 
