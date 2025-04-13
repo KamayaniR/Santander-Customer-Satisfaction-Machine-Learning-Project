@@ -74,11 +74,19 @@ This project focuses on using a Decision Tree classifier for its transparency, s
    - Moderate tree depth (~8) prevented overfitting and improved generalization
      
  ## Challenges Faced
-   ## Challenge and Solutions:
+   ## Challenges and Solutions:
     - High dimensionality - Variance filtering, manual feature inspection
     - Class imbalance - Focused on AUC + F1, considered future SMOTE use
     - Noisy data - Removed features with zero variance and low correlation
     - Overfitting risks - Controlled tree depth + min samples per node
+    
+ ## Future Improvements
+   - Try ensemble methods (Random Forest, Gradient Boosting, XGBoost)
+   - Implement SMOTE or ADASYN to oversample class 1
+   - Explore cost-sensitive learning (class weights)
+   - Analyze feature importance using tree-based models
+   - Visualize decision paths to understand key splits
+
 
 
 
