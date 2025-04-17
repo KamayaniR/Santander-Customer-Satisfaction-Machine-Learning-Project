@@ -1,4 +1,6 @@
 # Santander-Customer-Satisfaction-Machine-Learning-Project
+- This project is developed for the Master's course CIS 508 - Machine Learning
+- Kaggle Competition: Santander Customer Satisfaction
 
 ## Overview
 This project aims to predict customer satisfaction levels using a highly anonymised tabular dataset provided by Santander Bank. The challenge involves:
